@@ -15,6 +15,6 @@ channels = ["conda-forge", "https://conda.modular.com/max"]
 platforms = ["osx-arm64"]
 
 [tool.pixi.pypi-dependencies]
-magic_test = { path = ".", editable = true }
+magic_test = { path = "magic_test", editable = true }
 
 [tool.pixi.tasks]
